@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@redis/client": "^1.5.14",
-    "@xmtp/botkit": "latest",
+    "@xmtp/botkit": "^2.3.1",
     "axios": "^1.6.8",
     "mixpanel": "^0.18.0"
   }
