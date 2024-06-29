@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { run, HandlerContext } from "@xmtp/botkit";
 import { getRedisClient } from "./lib/redis.js";
 import { LearnWeb3Client, Network } from "./lib/learn-web3.js";
