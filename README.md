@@ -26,6 +26,8 @@ MIX_PANEL= # mix panel key
 
 > This bot uses [Mint Frame](https://github.com/fabriguespe/mint-frame/)
 
+**Run the bot**
+
 ```bash
 # install dependencies
 yarn install
