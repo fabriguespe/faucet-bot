@@ -33,8 +33,7 @@ MIX_PANEL= # mix panel key
 yarn install
 
 # to run with hot-reload
-yarn build:watch
-yarn start:watch
+yarn dev
 ```
 
 ## Messaging apps 💬
