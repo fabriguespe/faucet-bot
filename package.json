@@ -3,9 +3,9 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "build:watch": "tsc -w",
-    "start:watch": "nodemon dist/src/index.js",
-    "start": "node dist/src/index.js",
+    "dev": "tsc -w & sleep 1 && nodemon --quiet dist/index.js",
+    "dev:bun": "tsc -w & sleep 1 && bun run --watch dist/index.js",
+    "start": "node dist/index.js",
     "generate": "npx graphql-codegen",
     "prestart": "yarn generate",
     "predev": "yarn generate"
@@ -16,8 +16,11 @@
   },
   "dependencies": {
     "@redis/client": "^1.5.14",
-    "@xmtp/botkit": "^2.3.2",
+    "@xmtp/message-kit": "^0.0.6",
     "axios": "^1.6.8",
     "mixpanel": "^0.18.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

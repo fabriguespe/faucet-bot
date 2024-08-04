@@ -45,4 +45,4 @@ Test the bots in messaging apps
 
 ## Documentation 📚
 
-To learn more about Botkit, to go the [docs](https://github.com/xmtp/botkit)
+To learn more about MessageKit, to go the [docs](https://github.com/ephemerahq/message-kit)
