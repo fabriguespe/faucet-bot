@@ -1,7 +1,6 @@
 import { run, HandlerContext } from "@xmtp/message-kit";
 import { getRedisClient } from "./lib/redis.js";
-import { LearnWeb3Client, Network } from "./lib/learn-web3.js";
-import { FIVE_MINUTES } from "./lib/constants.js";
+import { FIVE_MINUTES, LearnWeb3Client, Network } from "./lib/learnweb3.js";
 import Mixpanel from "mixpanel";
 
 const mixpanel = Mixpanel.init(process.env.MIX_PANEL as string);

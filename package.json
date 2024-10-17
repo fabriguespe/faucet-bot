@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@redis/client": "^1.5.14",
-    "@xmtp/message-kit": "^1.0.0-beta.6",
+    "@xmtp/message-kit": "^1.0.0-beta.15",
     "axios": "^1.6.8",
     "mixpanel": "^0.18.0"
   },
